@@ -1,8 +1,11 @@
 #
 # Artificial Intelligence
-# HW2
 # Author: Akanksha Tyagi
-# akanksht@usc.edu
+# Problem Statement: The goal of this assignment is to compute next best action for player 1 by employing Minimax algorithm
+# along with Alpha-beta pruning. This assignment also involves combining arc consistency with alpha beta pruning. The problem involves
+# assigning a color to each state in the map so that no two adjacent states have the same color. Each player has a set of preferences
+# colors. For each agent, every color is assigned a weight and the goal is to make assignments that maximize the total sum of weights.
+#
 
 import sys
 from operator import itemgetter
